@@ -11,7 +11,7 @@ window.onload = function () {
             q = parseInt(document.getElementById("day").value),
             j = f(y / 100),
             k = y % 100;
-
+        
         if (m == 1) {
             m = 13
         }
