@@ -5,12 +5,12 @@ window.onload = function () {
     document.getElementById("Btn").addEventListener("click", zeller);
 
     function zeller() {
-        var f = Math.floor
-        var y = parseInt(document.getElementById("year").value);
-        var m = parseInt(document.getElementById("month").value);
-        var q = parseInt(document.getElementById("day").value);
-        var j = f(y / 100)
-        var k = y % 100
+        var f = Math.floor,
+            y = parseInt(document.getElementById("year").value),
+            m = parseInt(document.getElementById("month").value),
+            q = parseInt(document.getElementById("day").value),
+            j = f(y / 100),
+            k = y % 100;
 
         if (m == 1) {
             m = 13
